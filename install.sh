@@ -3,7 +3,7 @@
 yum install -y epel-release
 yum update -y
 
-yum install -y vim-enhanced git nmap
+yum install -y vim-enhanced git nmap xclip
 
 yum install -y ntp
 
