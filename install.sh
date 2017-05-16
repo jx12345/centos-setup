@@ -3,14 +3,14 @@
 yum install -y epel-release
 yum update -y
 
-yum install -y vim-enhanced git nmap 
+yum install -y vim-enhanced git nmap telnet
 
 yum install -y ntp
 timedatectl set-timezone Europe/London
 systemctl start ntpd
 systemctl enable nptd
 
-yum install  -y httpd mariadb-server mariadb php php-mysql php-mcrypt php-mbstring php-gd
+yum install -y httpd mariadb-server mariadb php php-mysql php-mcrypt php-mbstring php-gd
 
 systemctl enable httpd
 systemctl start httpd
