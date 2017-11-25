@@ -18,7 +18,7 @@ yum install -y mariadb-server
 cp /etc/httpd/conf/httpd.conf /etc/httpd/conf/httpd.conf.bak
 cp httpd.conf /etc/httpd/conf/httpd.conf
 
-cp /home/vagrant/magento.tar.bz2 /var/www/html/magento.tar.bz2
+cp magento.tar.bz2 /var/www/html/magento.tar.bz2
 cd /var/www/html
 tar -xjf magento.tar.bz2
 rm magento.tar.bz2
