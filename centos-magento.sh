@@ -23,6 +23,8 @@ cd /var/www/html
 tar -xjf magento.tar.bz2
 rm magento.tar.bz2
 
+chown -R apache:apache /var/www/html
+
 systemctl enable httpd
 systemctl start httpd
 
