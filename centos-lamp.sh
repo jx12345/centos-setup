@@ -8,7 +8,7 @@ yum install -y vim-enhanced git nmap telnet
 yum install -y ntp
 timedatectl set-timezone Europe/London
 systemctl start ntpd
-systemctl enable nptd
+systemctl enable ntpd
 
 yum install -y httpd mariadb-server mariadb php php-mysql php-mcrypt php-mbstring php-gd
 
