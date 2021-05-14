@@ -1,1 +1,3 @@
 
+apt install -y apache2 mariadb-server mariadb php php-mysql php-mcrypt php-mbstring php-gd php-curl php-xml
+
